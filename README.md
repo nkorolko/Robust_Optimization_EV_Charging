@@ -7,3 +7,9 @@ In this project, we address the problem of optimal electric vehicle charging in 
 New robust formulations are proven to be tractable. Moreover, computational experiments
 illustrate that a decision maker can find solutions that are close to optimal in terms of the corresponding objective values, and
 robust with respect to uncertain electricity prices.
+
+File "Article_Robust.pdf" is a paper published in IEEE Transactions on Smart Grid. 
+
+Julia file "MINLP_1.jl" solves a mixed-integer nonlinear optimization problem (9) on page 7. The solving algorithm uses lazy constraints technique described in Section 2 of the paper and also calls Gurobi. This algorithm is more than two orders of magnitude faster than off-the-shelf nonlinear solvers like Bonmin. 
+
+File "Figure3.m" is an example of visualization for the paper (Fig.3 on page 6) coded in MATLAB. 
