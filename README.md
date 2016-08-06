@@ -13,3 +13,10 @@ File "Article_Robust.pdf" is a paper published in IEEE Transactions on Smart Gri
 Julia file "MINLP_1.jl" solves a mixed-integer nonlinear optimization problem (9) on page 7. The solving algorithm uses lazy constraints technique described in Section 2 of the paper and also calls Gurobi. This algorithm is more than two orders of magnitude faster than off-the-shelf nonlinear solvers like Bonmin. 
 
 File "Figure3.m" is an example of visualization for the paper (Fig.3 on page 6) coded in MATLAB. 
+
+[1] http://www.gurobi.com/
+
+[2] http://julialang.org/
+
+[3] https://projects.coin-or.org/Bonmin
+
